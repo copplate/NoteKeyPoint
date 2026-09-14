@@ -23,6 +23,13 @@ class MemoViewModel(application: Application) : AndroidViewModel(application) {
         }
     }
 
+    // 【修改】更新一条备忘录
+    fun updateMemo(memo: Memo, title: String, content: String) {
+        viewModelScope.launch {
+            memoDao.updateMemo(memo.copy(title = title, content = content))
+        }
+    }
+
     // 【删除】删除指定的备忘录对象
     fun deleteMemo(memo: Memo) {
         viewModelScope.launch {

@@ -8,6 +8,17 @@
     <string name="next">Next</string>
     <string name="add">Add</string>
     <string name="previous">Previous</string>
+    <string name="memo_list_title">备忘录</string>
+    <string name="memo_title_hint">标题</string>
+    <string name="memo_content_hint">内容</string>
+    <string name="memo_add">新增</string>
+    <string name="memo_update">保存修改</string>
+    <string name="memo_clear">清空</string>
+    <string name="memo_edit">编辑</string>
+    <string name="memo_delete">删除</string>
+    <string name="memo_all">全部备忘录</string>
+    <string name="memo_empty">暂无备忘录</string>
+    <string name="memo_input_required">请填写标题或内容</string>
 
     <string name="lorem_ipsum">
         fragment first

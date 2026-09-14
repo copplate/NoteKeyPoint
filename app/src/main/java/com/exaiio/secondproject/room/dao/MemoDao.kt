@@ -15,6 +15,10 @@ interface MemoDao {
     @Insert
     suspend fun insertMemo(memo: Memo): Long
 
+    // 更新指定的备忘录
+    @Update
+    suspend fun updateMemo(memo: Memo)
+
     // 删除指定的备忘录
     @Delete
     suspend fun deleteMemo(memo: Memo)
