@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1053993374295",
+    "project_id": "notekeypoint-ac72e",
+    "storage_bucket": "notekeypoint-ac72e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053993374295:android:87fd785a57f1903a2f8912",
+        "android_client_info": {
+          "package_name": "com.exaiio.secondproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0y0hUAd44zM4UNsrxIPgn9MK-BSpjHNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

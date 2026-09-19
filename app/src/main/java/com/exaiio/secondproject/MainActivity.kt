@@ -10,6 +10,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
 import com.exaiio.secondproject.databinding.ActivityMainBinding
+import com.google.firebase.analytics.FirebaseAnalytics
 
 //BasicViewsActivity
 class MainActivity : AppCompatActivity() {
