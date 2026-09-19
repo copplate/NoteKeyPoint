@@ -45,6 +45,10 @@ class FirstFragment : Fragment() {
             firebaseAnalytics.logEvent("goto_button_click", bundle)
             findNavController().navigate(R.id.action_FirstFragment_to_NoteFragment)
         }
+
+        binding.btnGotoRlv.setOnClickListener{
+            findNavController().navigate(R.id.action_FirstFragment_to_NoteFragmentTwo)
+        }
     }
 
     override fun onDestroyView() {

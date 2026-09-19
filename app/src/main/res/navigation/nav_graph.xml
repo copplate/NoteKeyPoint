@@ -18,6 +18,9 @@
         <action
             android:id="@+id/action_FirstFragment_to_NoteFragment"
             app:destination="@id/NoteFragmentOne" />
+        <action
+            android:id="@+id/action_FirstFragment_to_NoteFragmentTwo"
+            app:destination="@id/NoteFragmentTwo" />
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
@@ -33,8 +36,13 @@
         android:id="@+id/NoteFragmentOne"
         android:name="com.exaiio.secondproject.fragment.NoteFragmentOne"
         android:label="@string/note_fragment_one_label"
-
         >
+    </fragment>
 
+    <fragment
+        android:id="@+id/NoteFragmentTwo"
+        android:name="com.exaiio.secondproject.fragment.NoteFragmentTwo"
+        android:label="@string/note_fragment_two_label"
+        >
     </fragment>
 </navigation>
